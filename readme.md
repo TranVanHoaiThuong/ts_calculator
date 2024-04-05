@@ -12,7 +12,7 @@ Cài đặt uglify-js để minify JS:
 npm install uglify-js -g
 ```
 
-Sau khi cài đặt xong tiến hành minify JS:
+Sau khi cài đặt xong tiến hành tạo folder `build` trong folder `js` và chạy lệnh dưới đây để minify JS:
 
 ```
 uglifyjs js/src/main.js -o js/build/main.min.js --compress --mangle
